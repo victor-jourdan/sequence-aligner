@@ -1,6 +1,6 @@
 from readfa import readfq
 from xopen import xopen
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 def fileconcat(filename):
     with xopen(filename) as fasta:
         sum = []
@@ -22,4 +22,4 @@ def canonical(kmer):
 
 
 
-    
+
